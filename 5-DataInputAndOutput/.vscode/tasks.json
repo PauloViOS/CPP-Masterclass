@@ -1,0 +1,47 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+        "type": "cppbuild",
+        "label": "Builda tudo com GCC 10.3.0",
+        "command": "/usr/bin/g++-10",
+        "args": [
+            "-fdiagnostics-color=always",
+            "-g",
+            "-std=c++20",
+            "/home/paulosantos/Área\\ de\\ Trabalho/CPPMasterClass/5-DataInputAndOutput/*.cpp",
+            "-o",
+            "${fileDirname}/DataInputAndOutput"
+        ],
+        "options": {
+            "cwd": "${fileDirname}"
+        },
+        "problemMatcher": [
+            "$gcc"
+        ],
+        "group": "build",
+        "detail": "Criado para o vídeo tutorial de 31 horas"
+    },
+    {
+        "type": "cppbuild",
+        "label": "Builda com clang++-12.0.0",
+        "command": "/usr/bin/clang++-12",
+        "args": [
+            "-fdiagnostics-color=always",
+            "-g",
+            "-std=c++20",
+            "/home/paulosantos/Área\\ de\\ Trabalho/CPPMasterClass/5-DataInputAndOutput/*.cpp",
+            "-o",
+            "${fileDirname}/DataInputAndOutput"
+        ],
+        "options": {
+            "cwd": "${fileDirname}"
+        },
+        "problemMatcher": [
+            "$gcc"
+        ],
+        "group": "build",
+        "detail": "Criado para o vídeo tutorial de 31 horas"
+    }
+]
+}

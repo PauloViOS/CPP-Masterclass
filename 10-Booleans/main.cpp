@@ -17,7 +17,7 @@ int main()
         std::cout << "The light is NOT green" << std::endl;
     }
     
-    // sizeof()
+    // sizeof() -> Booleanos tem o tamanho de um byte
     std::cout << "sizeof(bool): " << sizeof(bool)<< std::endl;
 
     // printing a bool
